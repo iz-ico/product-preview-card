@@ -128,6 +128,8 @@ h2{
 
 body {
     background-color: hsl(0, 0%, 100%);
+    margin: 10vh;
+    justify-items: center;
     align-items: center;
     justify-items: center;
 }
@@ -214,13 +216,15 @@ footer {
 @media screen and (max-width: 375px) {
     div {
         flex-direction: column;
-        width: 300px;
+        width: 200px;
         height: 200px;
+        border-radius: 20px;
     }
 
     img {
         height: 220px;
-        border-top-right-radius: 40px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
         border-bottom-left-radius: 0px;
     }
 
@@ -230,10 +234,32 @@ footer {
     }
 
     p {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     h1 {
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    button {
+        height: 30px;
+        width: 100px;
+    }
+
+    span {
+        font-size: 8px;
+    }
+
+    .cart {
+        width: 10px;
+        height: 10px;
+    }
+
+    strong {
+        font-size: 8px;
+    }
+
+    .attribution {
+        font-size: 8px;
     }
 }
